@@ -186,7 +186,7 @@ Text
 * Code: Code - Directory containing all of the the code
   * Sub Title
     * Navigate to [Link to ].ipynb)    
-  * Housing Feature Analysis 
+  * Sub Title 
     * Navigate to [Link to ].ipynb)
     * Navigate to [Link to ].ipynb)
   * Sub Title

@@ -3,7 +3,7 @@
 MedAI is an intelligent chatbot developed by a collaborative team aimed at providing insightful medical information and assistance to users. Leveraging state-of-the-art machine learning techniques, including natural language processing (NLP) and multimodal capabilities, MedAI can understand and respond to a wide range of medical queries efficiently
 
 
-# **Golden State Housing Insights: A predictive analysis of California's housing market**
+# **000000000000000000000000000000000000000000000000000000000**
 <a id="idtop"></a>  
 <img src="./resources/content/gs1.jpg" width="750">
 
@@ -22,52 +22,50 @@ MedAI is an intelligent chatbot developed by a collaborative team aimed at provi
 * [References](#references)
 
 ## Project Overview 
-The primary goal of our project, Golden State Housing Insights, is to predict housing prices in the state of California. Our team aims to achieve this by leveraging machine learning models to analyze various factors, including investor return on investment (ROI), feature analysis and interest rate predictability. By integrating these elements, we strive to provide accurate and actionable insights into the California housing market, aiding investors, homebuyers, and policymakers in making informed decisions.
+Text
 
-The business question we hope to answer is: *What are the key interrelationships between housing price as dictated by home features and interest rates as well as housing price for california metro area returns over time?*
 
-Our motivation for taking on this challenge is to find out if we can accurately predict housing prices based off home features, interest rates and metro areas.
 
 [🔼 Back to top](#idtop)
 <hr>
 
 ## Business Scenario
-We approached our business problem as independent real estate consultants. Our client, who recently accepted a job offer in California, seeks to purchase a home in the area. They have tasked us with identifying the top 5 metro areas with the highest return on investment (ROI) based on a home feature analysis. Additionally, we will predict near-term interest rates using Time Series modeling and linear regression to support their decision-making. 
+Text
 
 [🔼 Back to top](#idtop)
 <hr>
 
 ## Data PreProcessing
-* Housing Price Prediction using Zillow Data Analysis
-  * Our team employed a comprehensive data pre-processing approach to ensure the accuracy and reliability of our housing price predictions. We utilized powerful libraries such as NumPy and Pandas for efficient data manipulation and analysis. Matplotlib was used for visualizing data trends and patterns. We also applied data melting techniques to reshape our datasets, making them more suitable for analysis. Additionally, we incorporated time series analysis to account for temporal trends and seasonality in housing prices. This robust pre-processing framework enabled us to prepare our data effectively for machine learning modeling. Our team conducted an extensive exploratory data analysis (EDA) to uncover underlying patterns and relationships within the housing data. This initial step allowed us to gain valuable insights and informed our subsequent modeling approach. 
-* Housing Feature Analysis
-  * To prepare the dataset for analysis, we began by removing outliers by filtering extreme values in the features AveRooms, AveBedrms, Population, and AveOccup. We then used a heatmap to identify the most impactful variables for predicting house prices. The data was split into training and testing sets, with 80% allocated for training and 20% for testing using the train_test_split() function. Finally, we standardized the values using StandardScaler() to ensure consistent scaling across features.  
-  * To predict housing market trends and analyze influential home features, we utilized the Ames dataset, assuming Californians have similar preferences. We began by preprocessing the dataset, removing features with sparse data and encoding non-numerical features. A correlation analysis was then conducted to identify the 12-15 most influential home features based on their correlation with home prices. 
-* Interest Rate Prediction Analysis
-  * To predict future interest rates up to February 2025, the code utilizes historical data from a CSV file ('fed-rates.csv'). The data spans from January 2017 to December 2024, and is cleaned to calculate average monthly rates. 
+* Sub Title
+  * Text
+* Sub Title
+  * Text
+  * Text
+* Sub Title
+  * Text
 [🔼 Back to top](#idtop)
 <hr>
 
 ## Model Training and Testing  
-* Housing Price Prediction using Zillow Data Analysis
-  * We employed both ARIMA (AutoRegressive Integrated Moving Average) and Auto-ARIMA models to predict housing prices. The ARIMA model helped us understand the temporal dependencies and trends in the data, while the Auto-ARIMA model automated the process of identifying the optimal parameters for our time series forecasting. By comparing the results from these models, we were able to enhance the accuracy and robustness of our housing price predictions.
-* Housing Feature Analysis
-  * We utilized a Linear Regression model for our feature analysis. The model was trained using the model.fit(X_train, y_train) method, allowing it to learn from the training data. After training, we made predictions on the test data with the model.predict(X_test) function. This approach enabled us to assess the model's performance and accuracy effectively. A scatter plot comparing actual and predicted prices based on these three features shows a general alignment, though some deviations indicate potential areas for further model refinement. These findings underscore the significant impact of economic and structural factors on housing prices and demonstrate that while linear regression offers a reasonable predictive capability, there is room for improvement to enhance accuracy.
-  * We trained models using Linear Regression and Random Forest, employing recursive feature elimination to iteratively remove less important features. Model performance was evaluated using RMSE, R², and MAE metrics, providing a comprehensive understanding of the factors influencing home prices.
-* Interest Rate Prediction Analysis
-  * The visualization includes three key elements: the actual historical interest rates, represented as a line with circle markers; the Linear Regression predictions, depicted as a dashed line with 'x' markers, which illustrate the general trend but may miss some finer details; and the K-Nearest Neighbors (KNN) predictions, shown as a dotted line with square markers, which are potentially more responsive to recent changes in interest rates. According to the Linear Regression and KNN models, interest rates are likely to continue to rise into early 2025. This prediction suggests further challenges for the housing market, potentially leading to continued reduced buyer activity and potential downward pressure on prices.[🔼 Back to top](#idtop)
+* Sub Title
+  * Text
+* Sub Title
+  *Text
+  * Text
+* Sub Title
+  * Text [🔼 Back to top](#idtop)
 <hr>
 
 ## Visuals and Explanations
-* We used various visualizations to depict our data, including line graphs for trends, bar charts for categorical comparisons, scatter plots for correlations, and heatmaps for data density and relationships. These visualizations were presented in Google Slides for easy sharing and in Streamlit for an interactive experience, effectively communicating our findings.
+* Text
 
-**Average median home prices**
-![image](resources/content/cg_avghp.png)
-Average median home prices.
+**Title**
+![image) .png
+*Text
 
-**ARIMA Model Housing Price Prediction**
-![image](resources/content/cg_atop5.png)
-Top 5 California areas with the highest ROI.
+**Title**
+![image].png)
+*Text
 
 **SARIMA Model Housing Price Prediction**
 ![image](resources/content/cg_stop5.png)

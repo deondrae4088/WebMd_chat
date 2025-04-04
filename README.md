@@ -60,34 +60,34 @@ Text
 * Text
 
 **Title**
-![image)Link.png
+![image)(Link.png
 *Text
 
 **Title**
-![image]Link.png)
+![image](Link.png)
 *Text
 
 **Title**
-![image]Link.png)
+![image](Link.png)
 *Text
 
 **Title**
-![image]Link.PNG)
+![image](Link.PNG)
 *Text
-![image]Link.PNG)
+![image](Link.PNG)
 *Text
 
 **Title**
-![image]Link.png)
+![image](Link.png)
 *Text
-![image]Link.png)
+![image](Link.png)
 *Text
 
-**Interest Rate Prediction Analysis**
-![image](resources/content/dex_lr1.png)
-linear Regression 1.
-![image](resources/content/dex_lr2.png)
-linear Regression 2.
+**Title**
+![image](path).png)
+*Text
+![image](path).png)
+*Text
 
 [🔼 Back to top](#idtop)
 <hr>

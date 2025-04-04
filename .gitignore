@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Colab-specific
+*.ipynb_checkpoints/
+*.bak
+*.swp
+
+# Data files (optional – if you don't want large datasets tracked)
+*.csv
+*.tsv
+*.xlsx
+*.h5
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Model files
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Jupyter Notebook metadata
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db

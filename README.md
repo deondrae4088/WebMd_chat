@@ -3,7 +3,7 @@
 MedAI is an intelligent chatbot developed by a collaborative team aimed at providing insightful medical information and assistance to users. Leveraging state-of-the-art machine learning techniques, including natural language processing (NLP) and multimodal capabilities, MedAI can understand and respond to a wide range of medical queries efficiently
 
 
-# **000000000000000000000000000000000000000000000000000000000**
+# **Title**
 <a id="idtop"></a>  
 <img src="./resources/content/gs1.jpg" width="750">
 
@@ -60,28 +60,28 @@ Text
 * Text
 
 **Title**
-![image) .png
+![image)Link.png
 *Text
 
 **Title**
-![image].png)
+![image]Link.png)
 *Text
 
-**SARIMA Model Housing Price Prediction**
-![image](resources/content/cg_stop5.png)
-Top 5 California areas with the highest ROI.
+**Title**
+![image]Link.png)
+*Text
 
-**Feature Accuracy Analysis**
-![image](resources/content/rb_heat.PNG)
-Feature analysis 1.
-![image](resources/content/rb_linearreg.PNG)
-Feature analysis 2.
+**Title**
+![image]Link.PNG)
+*Text
+![image]Link.PNG)
+*Text
 
-**AMES Feature Analysis**
-![image](resources/content/wat_ames_featimp.png)
-AMES Feature Importance
-![image](resources/content/wat_ames_feat.png)
-AMES Feature Correlation
+**Title**
+![image]Link.png)
+*Text
+![image]Link.png)
+*Text
 
 **Interest Rate Prediction Analysis**
 ![image](resources/content/dex_lr1.png)
@@ -93,9 +93,9 @@ linear Regression 2.
 <hr>
 
 ## Demos and Slideshow
-* Housing Price Prediction using Zillow Data Analysis 
-  * Navigate to [Demo](resources/content/cg_demo.gif)    
-* Feature Accuracy Analysis
+* Title
+  * Navigate to [Demo]path demo.gif)    
+* Text
   * Navigate to [Demo](resources/content/rb_demo.gif)
 * AMES Feature Analysis
   * Navigate to [Demo](resources/content/wat_demo.gif)

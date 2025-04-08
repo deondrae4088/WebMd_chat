@@ -12,6 +12,58 @@ MedAI is a chatbot designed to assist users with medical inquiries using machine
 
 ---
 
+## 🛠️ INSTALLATION
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pandas, numpy, tensorflow keras, SentimentIntensityAnalyzer, seaborn, Dense, Scikitlearn, Matplotlib, vaderSentiment
+
+#### Pandas
+
+```bash
+pip install pandas
+```
+
+#### numpy
+
+```bash
+pip install numpy
+```
+
+#### Matplot
+
+```bash
+pip install matplotlib
+```
+
+#### tensorflow kearas
+
+```bash
+pip install tensorflow kearas
+```
+
+#### sklearn
+
+```bash
+pip install sklearn
+```
+
+#### vaderSentiment
+
+```bash
+pip install vaderSentiment
+```
+
+#### torch
+
+```bash
+pip install torch
+```
+
+#### transformers
+
+```bash
+pip install transformers
+```
+
 ## 🧹 DATA PREPROCESSING
 
 **Dataset Used:**  
@@ -57,8 +109,8 @@ df.to_csv('medical_qa_data.csv', index=False)
 - **Xavier** – Proposal, Slides, README  
 - **Thomas** – Slides, README  
 - **Dexter** – Clean Data, PreProcessed Data, Train Model  
-- **Gabe** – Model Implementation (upcoming)  
-- **Justinian** – Model Implementation (upcoming)
+- **Gabe** – Gradio  
+- **Justinian** – Gradio
 
 ---
 

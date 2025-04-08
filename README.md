@@ -68,6 +68,7 @@ pip install transformers
 
 **Dataset Used:**  
 [Comprehensive Medical Q&A Dataset (Kaggle)](https://www.kaggle.com/datasets/thedevastator/comprehensive-medical-q-a-dataset/data)
+ We are aiming to load, clean, and preprocess a dataset containing Medical Questions and Answers. So we are preparing the data for potential use in a chatbot or question-answering system related to medical information.
 
 **Steps Completed:**
 

@@ -31,7 +31,7 @@ Through the synthesis and analysis of several datasets encompassing NFL player p
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pandas, requests, matplot, scipy, and prophet. Alternatively, you can use this [CoLab link](https://colab.research.google.com/drive/13hsjrGripvLE8_Y0ZHztOG3AET5U0Fp3) to run the code in browser.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pandas, requests, matplot, scipy, and prophet. Alternatively, you can use this [CoLab link](https://colab.research.google.com/drive/1DzIzVHDosinNcmLC3bwUGK7CbTkdPv3X?usp=sharing#scrollTo=JwnmlvaDitZ1) to run the code in browser.
 
 #### Pandas
 

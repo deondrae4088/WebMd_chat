@@ -38,7 +38,27 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pandas,
 ```bash
 pip install pandas
 ```
+```bash
+pip install requests
+```
 
+#### Matplot
+
+```bash
+pip install matplotlib
+```
+
+#### Scipy
+
+```bash
+pip install scipy
+```
+
+#### Prophet
+
+```bash
+pip install prophet
+```
 #### Requests
 
 

@@ -14,7 +14,7 @@ MedAI is a chatbot designed to assist users with medical inquiries using machine
 
 ## 🛠️ INSTALLATION
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pandas, numpy, tensorflow keras, SentimentIntensityAnalyzer, seaborn, Dense, Scikitlearn, Matplotlib, vaderSentiment. refer to the [requirements.txt](https://github.com/deondrae4088/WebMd_chat/blob/main/Code/requirements.txt)
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Libraries & Dependencies like pandas, numpy, tensorflow keras, SentimentIntensityAnalyzer, seaborn, Dense, Scikitlearn, Matplotlib, vaderSentiment etc. refer to the [requirements.txt](https://github.com/deondrae4088/WebMd_chat/blob/main/Code/requirements.txt)
 
 #### Pandas
 

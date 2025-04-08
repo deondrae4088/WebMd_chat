@@ -64,7 +64,7 @@ pip install torch
 pip install transformers
 ```
 
-## 🧹 DATA PREPROCESSING
+## 🧹 DATA CLEANING
 
 **Dataset Used:**  
 [Comprehensive Medical Q&A Dataset (Kaggle)](https://www.kaggle.com/datasets/thedevastator/comprehensive-medical-q-a-dataset/data)

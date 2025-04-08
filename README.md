@@ -56,7 +56,7 @@ df.to_csv('medical_qa_data.csv', index=False)
 - **Justin** – Proposal, Slides, README  
 - **Xavier** – Proposal, Slides, README  
 - **Thomas** – Slides, README  
-- **Dexter** – GitHub Repository Setup  
+- **Dexter** – Clean Data, PreProcessed Data, Train Model  
 - **Gabe** – Model Implementation (upcoming)  
 - **Justinian** – Model Implementation (upcoming)
 

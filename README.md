@@ -194,10 +194,10 @@ In this case, re is used to extract the relevant answer from the model's raw out
 ├── medical_qa_data.csv
 ├─── requirements.txt
 ├─ Resource
-├──Medical Model Files
-├─── Lots of Files to Name
-├─ Demo & Presentation
-├─- Demo Run.md
+├── Demo & Presentation
+├─── Demo Run.md
+├─ Medical Model Files
+├─- !to many to list!
 ├─── 
 ├─── 
 ├─── 

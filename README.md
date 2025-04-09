@@ -174,8 +174,6 @@ X_test_padded = pad_sequences(X_test_sequences, maxlen=max_sequence_length)
 ├─── 
 ├─ README.md
 ```
-[🔼 Back to top](#idtop)
-<hr>
 
 ---
 

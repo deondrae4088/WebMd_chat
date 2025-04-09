@@ -90,6 +90,25 @@ df.to_csv('medical_qa_data.csv', index=False)
 - Shape: 16,407 rows × 3 columns  
 - Columns: `Question Type`, `Question`, `Answer`
 
+
+<b>Cleaned Medical_qa_data</b> 
+
+ This block attempts to execute the code within it. If any error occurs during execution, it jumps to the corresponding except block.
+
+df = pd.read_csv('medical_qa_data.csv'): This line uses the read_csv function from pandas (pd) to load the data from the CSV file into a DataFrame named df. A DataFrame is like a table that organizes the data in rows and columns.
+
+display(df.head()): This line displays the first few rows of the DataFrame df using the display function. This gives you a quick glimpse of the data's structure and content.
+
+print(df.shape): This line prints the shape of the DataFrame df, which represents the number of rows and columns in the data. It's displayed as (number of rows, number of columns).
+
+except FileNotFoundError:: If the file 'medical_qa_data.csv' is not found in the current directory, this block is executed, printing an error message and setting df to None.
+
+except pd.errors.EmptyDataError:: If the file 'medical_qa_data.csv' is empty, this block is executed, printing an error message and setting df to None.
+
+except pd.errors.ParserError:: If there is an issue parsing the file (e.g., incorrect format), this block is executed, printing an error message and setting df to None.
+
+except Exception as e:: This block is a catch-all for any other unexpected errors that might occur. It prints a general error message along with the specific error (e) and sets df to None.
+<p align="center"><img src="Resource/content/Cleaned Medical_qa_data.png"/></p>
 ---
 ## ⚙️ PREPROCESSING
 

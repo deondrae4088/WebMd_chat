@@ -228,6 +228,7 @@ In this case, re is used to extract the relevant answer from the model's raw out
 
 - [Comprehensive Medical Q&A Dataset – Kaggle](https://www.kaggle.com/datasets/thedevastator/comprehensive-medical-q-a-dataset/data)
 - [Pandas Documentation](https://pandas.pydata.org/)
+- [Huggingface](https://huggingface.co/deepset/roberta-base-squad2)
 
 ---
 

@@ -165,8 +165,8 @@ X_test_padded = pad_sequences(X_test_sequences, maxlen=max_sequence_length)
 ├─── Cleaned Medical_qa_data.png
 ├─── One-hot encoding.png
 ├─── Trained the Model.png
-├─── 
-├─── 
+├─.gitignore
+├─README.md
 ├─── 
 ├─── 
 ├─── 

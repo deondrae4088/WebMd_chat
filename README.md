@@ -150,7 +150,7 @@ X_test_padded = pad_sequences(X_test_sequences, maxlen=max_sequence_length)
 
 ## 🎥 DEMO & PRESENTATION
 * Model Run 
-  * Navigate to [Demo](resources/content/cg_demo.gif)   
+  * Navigate to [Demo](https://drive.google.com/file/d/1dmxHiC8GkAj6smPeZmkal1t4C30YWiFF/view?usp=sharing)   
 
 
 ## 📁 PROJECT STRUCTURE

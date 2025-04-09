@@ -114,6 +114,7 @@ except Exception as e:: This block is a catch-all for any other unexpected error
 One-hot encoding takes a categorical column (like 'Question Type', which might have values like 'diagnosis', 'treatment', etc.) and creates new columns, one for each unique category. Each row will have a '1' in the column corresponding to its original category and '0' in all other columns.
 <p align="center"><img src="Resource/content/One-hot encoding.png"/></p>
 ---
+
 ## ⚙️ PREPROCESSING
 
 ## Load and prepare the Dataset ##

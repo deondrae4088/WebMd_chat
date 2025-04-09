@@ -152,7 +152,8 @@ X_test_padded = pad_sequences(X_test_sequences, maxlen=max_sequence_length)
 ```
 
 ## 🎥 DEMO & PRESENTATION
-* Model Run 
+* Model Run
+  * Navigate to [Google Slide Presentation](https://docs.google.com/presentation/d/1oBG04dmTUMlyVrlXENFrVYv2byGMZqBb/edit?usp=drive_link&ouid=106577312720845901210&rtpof=true&sd=true)
   * Navigate to [Demo](https://drive.google.com/file/d/1dmxHiC8GkAj6smPeZmkal1t4C30YWiFF/view?usp=sharing)   
 - Here in the Demo video we run the code its like downloading and installing a tool called "datasets" that helps the user handle large amounts of text-based data for machine learning tasks.
   

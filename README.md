@@ -149,14 +149,33 @@ X_test_padded = pad_sequences(X_test_sequences, maxlen=max_sequence_length)
 ```
 
 ## 📁 PROJECT STRUCTURE
-
 ```
-├── Resource/
-│   └── medical_qa_data.csv
-├── notebooks/
-│   └── eda_and_preprocessing.ipynb
-├── README.md
+├─ code
+├── Cleaned_Data.ipynb
+├── DATA_CLEANING.ipynb
+├── Model_Test.ipynb
+├── PREPROCESSING.ipynb
+├── medical_qa_data.csv
+├─── requirements.txt
+├─ Resource
+├──Medical Model Files
+├─── Lots of Files to Name
+├─ Presentation
+├─ content
+├─── Cleaned Medical_qa_data.png
+├─── One-hot encoding.png
+├─── Trained the Model.png
+├─── 
+├─── 
+├─── 
+├─── 
+├─── 
+├─── 
+├─── 
+├─ README.md
 ```
+[🔼 Back to top](#idtop)
+<hr>
 
 ---
 

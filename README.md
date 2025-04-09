@@ -1,4 +1,5 @@
-# 🧠 MedAI
+ </div>
+<div align="center"> <h1>🧠 MedAI</h1></div>
 
 MedAI is an intelligent chatbot developed by a collaborative team aimed at providing insightful medical information and assistance to users. Leveraging state-of-the-art machine learning techniques, including natural language processing (NLP), MedAI is being built to understand and respond to a wide range of medical queries efficiently.
 
@@ -6,11 +7,11 @@ MedAI is an intelligent chatbot developed by a collaborative team aimed at provi
 
 ## 📘 PROJECT OVERVIEW
 
-**Title:** MedAI  
-**Description:**  
-MedAI is a chatbot designed to assist users with medical inquiries using machine learning and natural language processing. The project is in early stages, with a focus on building a clean and structured medical Q&A dataset and preparing for model training and evaluation.
 
----
+ </div>
+<div align="center">
+ <h2>Description </div> 
+MedAI is a chatbot designed to assist users with medical inquiries using machine learning and natural language processing. The project is in early stages, with a focus on building a clean and structured medical Q&A dataset and preparing for model training and evaluation.
 
 ## 🛠️ INSTALLATION
 

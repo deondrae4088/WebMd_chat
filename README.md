@@ -3,7 +3,7 @@
 
 MedAI is an intelligent chatbot developed by a collaborative team aimed at providing insightful medical information and assistance to users. Leveraging state-of-the-art machine learning techniques, including natural language processing (NLP), MedAI is being built to understand and respond to a wide range of medical queries efficiently.
 
-TO RUN THE [Medai_llm.ipynb](https://colab.research.google.com/drive/1DzIzVHDosinNcmLC3bwUGK7CbTkdPv3X?usp=drive_link) FILE !!!CLICK the LINK!!!
+TO RUN THE [Medai_llm.ipynb](https://colab.research.google.com/drive/1DzIzVHDosinNcmLC3bwUGK7CbTkdPv3X?usp=drive_link) FILE          
 
 ---
 

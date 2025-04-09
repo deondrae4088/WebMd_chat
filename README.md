@@ -104,6 +104,26 @@ df.to_csv('medical_qa_data.csv', index=False)
    y = df['Answer']    
    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
   ```
+
+  ## Tokenization and Padding ##
+
+  - The text data is preprocessed to make it suitable for the machine learning model.
+  - Tokenization converts the text into numerical sequences, where each word is represented by a unique number.
+  - Padding ensures that all sequences have the same length, which is a requirement for many deep learning models.
+
+```python
+tokenizer = Tokenizer(num_words=5000) # Adjust num_words as needed
+tokenizer.fit_on_texts(X_train)
+
+X_train_sequences = tokenizer.texts_to_sequences(X_train)
+X_test_sequences = tokenizer.texts_to_sequences(X_test)
+
+
+max_sequence_length = 100 # Adjust max_sequence_length as needed
+X_train_padded = pad_sequences(X_train_sequences, maxlen=max_sequence_length)
+X_test_padded = pad_sequences(X_test_sequences, maxlen=max_sequence_length)
+```
+
 ## 📁 PROJECT STRUCTURE
 
 ```

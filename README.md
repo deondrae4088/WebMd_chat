@@ -198,11 +198,6 @@ In this case, re is used to extract the relevant answer from the model's raw out
 ├─── Demo Run.md
 ├─ Medical Model Files
 ├─- !to many to list!
-├─── 
-├─── 
-├─── 
-├─
-├─
 ├─ content 
 ├─── Cleaned Medical_qa_data.png
 ├─── One-hot encoding.png

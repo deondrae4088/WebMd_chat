@@ -90,8 +90,7 @@ df.to_csv('medical_qa_data.csv', index=False)
 - Shape: 16,407 rows × 3 columns  
 - Columns: `Question Type`, `Question`, `Answer`
 
-
-<b>Cleaned Medical_qa_data</b> 
+<b>Cleaned medical_qa_data</b>
 
  This block attempts to execute the code within it. If any error occurs during execution, it jumps to the corresponding except block.
 
@@ -109,6 +108,11 @@ except pd.errors.ParserError:: If there is an issue parsing the file (e.g., inco
 
 except Exception as e:: This block is a catch-all for any other unexpected errors that might occur. It prints a general error message along with the specific error (e) and sets df to None.
 <p align="center"><img src="Resource/content/Cleaned Medical_qa_data.png"/></p>
+
+<b>Apply one-hot encoder</b>
+
+One-hot encoding takes a categorical column (like 'Question Type', which might have values like 'diagnosis', 'treatment', etc.) and creates new columns, one for each unique category. Each row will have a '1' in the column corresponding to its original category and '0' in all other columns.
+<p align="center"><img src="Resource/content/One-hot encoding.png"/></p>
 ---
 ## ⚙️ PREPROCESSING
 

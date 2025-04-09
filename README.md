@@ -91,7 +91,19 @@ df.to_csv('medical_qa_data.csv', index=False)
 - Columns: `Question Type`, `Question`, `Answer`
 
 ---
+## ⚙️ PREPROCESSING
 
+## Load and prepare the Dataset ##
+
+- The code loads a dataset from a CSV file (medical_qa_data.csv) into a Pandas DataFrame (df)
+- It then splits the data into training and testing sets using train_test_split from sklearn. The 'Question' column contains the input text, and the 'Answer' column is assumed to hold the corresponding labels or target variables.
+
+  ```pytthon
+  df = pd.read_csv('Resource/medical_qa_data.csv')
+   X = df['Question']  
+   y = df['Answer']    
+   X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+  ```
 ## 📁 PROJECT STRUCTURE
 
 ```

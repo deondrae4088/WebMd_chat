@@ -165,18 +165,18 @@ X_test_padded = pad_sequences(X_test_sequences, maxlen=max_sequence_length)
 ├─ Resource
 ├──Medical Model Files
 ├─── Lots of Files to Name
-├─ Presentation
-├─ content
+├─ Demo & Presentation
+├─- Demo Run.md
+├─── 
+├─── 
+├─── 
+├─
+├─
+├─ content 
 ├─── Cleaned Medical_qa_data.png
 ├─── One-hot encoding.png
-├─── Trained the Model.png
+├─── Trained the Model.png 
 ├─.gitignore
-├─README.md
-├─── 
-├─── 
-├─── 
-├─── 
-├─── 
 ├─ README.md
 ```
 

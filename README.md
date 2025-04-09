@@ -148,6 +148,11 @@ X_train_padded = pad_sequences(X_train_sequences, maxlen=max_sequence_length)
 X_test_padded = pad_sequences(X_test_sequences, maxlen=max_sequence_length)
 ```
 
+## 🎥 DEMO & PRESENTATION
+* Model Run 
+  * Navigate to [Demo](resources/content/cg_demo.gif)   
+
+
 ## 📁 PROJECT STRUCTURE
 ```
 ├─ code

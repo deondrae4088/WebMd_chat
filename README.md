@@ -184,6 +184,43 @@ This code snippet focuses on training a pre-trained Question Answering model usi
 
 In this case, re is used to extract the relevant answer from the model's raw output. It achieves this by using the re.search function, which locates the first occurrence of a specific pattern within the output string. The pattern itself is designed to identify and isolate the desired answer amidst special tokens that the model uses to mark the answer's beginning and end.
 
+</div>
+<div align="center"> <h1>FINAL SUMMARY</h1></div>
+This project aims to create a Medical Question Answering System using a fine-tuned deep learning model. The system is designed to provide answers to medical questions using a large medical dataset as its knowledge base.
+
+Here's a breakdown of the key steps and components:
+
+1. Data Acquisition and Preprocessing:
+
+The model utilizes a medical question-answer dataset, likely containing pairs of questions and corresponding answers from a reliable medical source.
+The dataset is preprocessed, which involves cleaning and formatting the data into a suitable format for the model. This includes tokenization, splitting the data into training and testing sets, and potentially other steps like handling special characters and medical terminology.
+
+2. Model Selection and Fine-tuning:
+
+A pre-trained language model, specifically "deepset/roberta-base-squad2," is chosen as the base for this project. This model is already trained on a massive dataset and possesses a general understanding of language.
+The pre-trained model is fine-tuned using the medical question-answer dataset. Fine-tuning involves adjusting the model's parameters to specialize it for answering medical questions based on the provided dataset.
+The fine-tuned model is saved to be used for inference (answering new questions).
+
+3. Question Answering Pipeline:
+
+To answer a new question, the question and relevant medical context are fed into the fine-tuned model.
+The model processes the input and predicts the answer span within the context.
+The predicted answer is extracted and presented to the user.
+
+4. Gradio Interface:
+
+A user-friendly interface is built using the Gradio library to make the model accessible.
+Users can enter their medical questions into a text box.
+The model's predicted answer is displayed in another text box.
+Overall Goal and Functionality:
+
+The goal of this project is to create an accessible and user-friendly system that can provide answers to medical questions based on a reliable knowledge base. By fine-tuning a pre-trained language model with a medical dataset and deploying it through a Gradio interface, the system aims to offer accurate and relevant medical information to users.
+
+In essence, this project develops a specialized chatbot that can understand and answer medical questions, potentially assisting individuals in obtaining information about medical conditions and treatments.
+
+
+
+
 
 ## 📁 PROJECT STRUCTURE
 ```

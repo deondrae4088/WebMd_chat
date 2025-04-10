@@ -13,7 +13,7 @@ TO RUN THE [Medai_llm.ipynb](https://colab.research.google.com/drive/1DzIzVHDosi
  </div>
 <div align="center">
  <h2>Description </div> 
-MedAI is a chatbot designed to assist users with medical inquiries using machine learning and natural language processing. The project is in early stages, with a focus on building a clean and structured medical Q&A dataset and preparing for model training and evaluation.
+MedAI is a chatbot designed to assist users with medical inquiries using machine learning and natural language processing. The project is in early stages, with a focus on building a clean and structured medical Q&A dataset and preparing for model training and evaluation. The MedQuad dataset provides a comprehensive source of medical questions and answers for natural language processing. With over 43,000 patient inquiries from real-life situations categorized into 31 distinct types of questions, the dataset offers an invaluable opportunity to research correlations between treatments, chronic diseases, medical protocols and more. Answers provided in this database come not only from doctors but also other healthcare professionals such as nurses and pharmacists, providing a more complete array of responses to help researchers unlock deeper insights within the realm of healthcare
 
 ## 🛠️ INSTALLATION
 
